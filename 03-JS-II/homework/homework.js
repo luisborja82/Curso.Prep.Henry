@@ -28,18 +28,47 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+  if ("Aleman")
+  {
+  Return console.log("Guten Tag!");
+    
+  }
+  else if("Mandarin")
+  {
+    Return console.log("Ni Hao!");
+  }
+  else if("Ingles")
+  {
+    return console.log("Hello!");
+  }
+  else
+  {
+    return console.log("Hola!");
+  }
+  
 }
 
 function esDiezOCinco(numero) {
     // Devuelve "true" si "numero" es 10 o 5
     // De lo contrario, devuelve "false"
     // Tu código:
+  
+  if (numero===10 || numero===5)
+  {
+    return true;
+  }
+  else return false;
 }
 
 function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
+  if numero>20 && numero<50
+  {
+    return true;
+  }
+  else return false;
 }
 
 function esEntero(numero) {
@@ -50,6 +79,8 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
+  
+  
 }
 
 function fizzBuzz(numero) {
